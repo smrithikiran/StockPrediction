@@ -1,0 +1,56 @@
+
+      
+
+<div class="searchBar">
+  <input #stockValue type="text" placeholder="Search stocks" name="search" value="">
+  <button (click)='func(stockValue.value);stockValue.value="";ngOnInit()'>Search</button>
+</div>
+<div class="holder" *ngIf="flag">
+  <div class="company">
+    
+    <div class="name">
+      {{name}}
+    </div>
+    
+  </div>
+  <div class="container">
+    <div class="days" >
+      <div id="val">
+          <b class="val1">{{price[0]}}</b>
+          <b class="val2">{{price[1]}}</b>
+          <b class="val3">{{price[2]}}</b>
+          <b class="val4">{{price[3]}}</b>
+          
+      </div>
+      <div id="day">
+          <span class="t5">t5</span>
+          <span class="t10">t10</span>
+          <span class="t15">t15</span>
+          <span class="t30">t30</span>
+          
+      </div>
+    </div>
+   
+    
+
+  </div>
+ 
+</div>
+<div class="past" *ngIf='past.length > 0'>
+  <div class="title">
+      <span>Past Searches</span>
+  </div>
+  <div class="cont" *ngFor='let p of past' (click)='viewPage(p.id)'>
+     <div class="det">
+        
+        <div class="companyName">{{p.name}}</div>
+        <div class="timing">
+         
+     </div>
+        
+      <div>
+          
+          
+      </div>
+  </div>
+</div>

@@ -1,0 +1,141 @@
+#title
+{
+  color: #ffffff;
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+}
+.holder
+{
+  position: relative;
+  display: flex;
+}
+.company
+{
+  margin: 50px 0px 0px 100px;
+  background:rgba(255, 255, 255, 0.5);
+  height: 150px;
+  width: 230px;
+  border-radius: 8px;
+  position: relative;
+  display: inline-block;
+  float: left;
+}
+.container
+{
+  margin: 50px 0px 0px 30px;
+  height: 380px;
+  width: 65%;
+  position: relative;
+  display: inline-block;
+}
+
+.days
+{
+  margin: 0px 0px 0px 0px;
+  background:rgba(255, 255, 255, 0.5);
+  height: 80px; 
+  border-radius: 8px;
+  position: relative;
+  display: block;
+}
+
+.chart
+{
+  margin: 20px 0px 0px 0px;
+  height: 280px;
+  background:rgba(255, 255, 255, 0.5);
+  position: relative;
+  display: flex;
+  border-radius: 8px;
+}
+
+
+
+#day{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  margin-left:55px;
+  margin-top: 5px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 17px;
+}
+
+.t5
+{
+  margin-left:0px;
+}
+.t10
+{
+  margin-left:auto;
+}
+.t15
+{
+  margin-left:auto;
+}
+.t30
+{
+  margin-left:auto;
+  margin-right:40px;
+}
+
+#val{
+  color: #ffffff;
+  font-size: 20px;
+  position: relative;
+  display: flex;
+  margin-left:50px;
+}
+.val1
+{
+  margin-left:0px;
+  margin-top: 15px;
+}
+.val2
+{
+  margin-top: 15px;
+  margin-left:auto;
+}
+.val3
+{
+  margin-top: 15px;
+  margin-left:auto;
+  
+}
+.val4
+{
+  margin-top: 15px;
+  margin-left:auto;
+    margin-right:40px;
+
+}
+
+
+.name
+{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 18px;
+  font-family: Tahoma, Geneva, sans-serif;
+  letter-spacing: 1px;
+  margin:auto;
+  padding:60px;
+  font-weight: lighter;
+}
+
+.
+
+
+
+button
+{
+  margin:30px 0px 0px 650px;
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+}
